@@ -1,0 +1,1 @@
+Please load Bodmer TFT library (https://github.com/Bodmer/TFT_eSPI) and replace the files in the library with User_Setup.h and User_Setup_select listed in the repository.

@@ -1,1 +1,15 @@
-Please load Bodmer TFT library (https://github.com/Bodmer/TFT_eSPI) and replace the files in the library with User_Setup.h and User_Setup_select listed in the repository.
+
+To update firmware please use the following procedure:
+
+Go to the webpage https://github.com/marcelstoer/nodemcu-pyflasher/releases
+Download the release for your operating system.
+Connect the unit with the supplied USBA to C cable.
+Run the downloaded EXE. NodeMCU
+1)Set your COM Port 
+2)Choose the firmware in firmware in the main folder.(Recently mailed units will use firmware named R2 older units that were shipped before the new colored ones are R1)
+3)Set baud rate as 115200 
+4)Flash mode Dual I/O(DIO)
+5) Erase flash (no)
+6) Click FlashModeMCU
+7) After flash the screen will remain black. Remove USB and reinsert.
+8) Unit should boot correctly.
